@@ -6,8 +6,8 @@ import { LinkedInIcon, XIcon } from '../components/SocialIcons'
 import image1 from '../images/photos/tunde-speak1.jpg'
 import image2 from '../images/photos/tunde-speak2.jpg'
 import image3 from '../images/photos/tunde-speak3.jpg'
-import image4 from '../images/photos/tunde-speak4.jpg'
-import image5 from '../images/photos/tunde-speak5.jpg'
+import image6 from '../images/photos/tunde4.png'
+import image7 from '../images/photos/tunde5.jpg'
 import tundeImg from '../images/photos/tunde-main-1.png'
 import tundeImg2 from '../images/photos/tunde-main-2.png'
 import grapeDataLogo from '../images/photos/grapedata_logo.jpg'
@@ -230,7 +230,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image4, image2, image3, image1, image5].map((image, imageIndex) => (
+        {[image7, image2, image3, image1, image6].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -258,14 +258,10 @@ export default function Home() {
         <div className="flex flex-col items-center gap-6 lg:flex-row">
           <div className="max-w-2xl md:w-[60%] ">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-              Co-Founder, Product Leader & Innovator
+              Experienced Product Manager with Technical Background and an MBA
             </h1>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-100">
-              I am Tunde Adeniran, a seasoned product leader with a passion for
-              innovation and growth. With over a decade of experience in the
-              tech industry, I have led transformative initiatives and driven
-              significant results in various fast-paced environments, from
-              start-ups to established firms.
+              I am Tunde Adeniran, a product manager with a passion for digital innovation and technology products. With over a decade of experience in the UK and EMEA ecosystem, I have led product initiatives working with engineering teams and cross-functional stakeholders to drive business outcomes.
             </p>
             <div className="mt-6 flex gap-6">
               <SocialLink
@@ -296,11 +292,10 @@ export default function Home() {
         <div className="flex flex-col gap-10 lg:flex-row md:gap-4">
           <div className="pr-6 md:w-[60%]">
             <h2 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-              A Voice of Innovation and Leadership
+              I'm Your Dedicated Product Consultant
             </h2>
             <p className="my-4 dark:text-zinc-100 text-zinc-800">
-              I&apos;m Tunde Adeniran, a product executive based in London,
-              dedicated to using technology to shape the future.
+              I help early-stage start-ups accheive product market fit by rapidly iterating and measuring result. I bring an external veiwpoint that's oftencrucial in helping startupss shape up their product strategy, roadmap, and improve agile development process.
             </p>
             <p className='dark:text-zinc-100 text-zinc-800'>
               My passion for computing dates back to my earliest memories. At

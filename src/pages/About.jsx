@@ -5,6 +5,8 @@ import image3 from '../images/photos/tunde-speak1.jpg'
 import image4 from '../images/photos/tunde-speak4.jpg'
 import image5 from '../images/photos/tunde-speak5.jpg'
 import image6 from '../images/photos/tunde-speak6.jpg'
+import image7 from '../images/photos/tunde4.png'
+import image8 from '../images/photos/tunde5.jpg'
 
 import { Container } from '../components/Container'
 import { LinkedInIcon, XIcon } from '../components/SocialIcons'
@@ -148,7 +150,7 @@ export default function About() {
           <div className="h-56 rounded-lg shadow-md">
             <img
               className="h-full w-full rounded-lg object-cover"
-              src={image5}
+              src={image8}
               alt="img1"
             />
           </div>
@@ -176,7 +178,7 @@ export default function About() {
           <div className="h-56 rounded-lg shadow-md">
             <img
               className="h-full w-full rounded-lg object-cover"
-              src={image6}
+              src={image7}
               alt="img1"
             />
           </div>
